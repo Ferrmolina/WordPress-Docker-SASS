@@ -1,0 +1,5 @@
+.idea/
+node_modules/
+wp-app/
+wp-data/
+package-lock.json

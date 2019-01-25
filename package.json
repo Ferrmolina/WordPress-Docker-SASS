@@ -1,0 +1,31 @@
+{
+  "name": "theme-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "install-dependencies": "npm install",
+    "init-gulp": "gulp"
+  },
+  "author": "fmolina.me",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.4.6",
+    "browser-sync": "^2.26.3",
+    "child_process": "^1.0.2",
+    "cross-spawn": "^6.0.5",
+    "cssnano": "^4.1.8",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-newer": "^1.4.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "webpack": "^4.29.0",
+    "webpack-stream": "^5.2.1"
+  }
+}
