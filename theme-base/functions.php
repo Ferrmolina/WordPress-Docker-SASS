@@ -9,3 +9,4 @@
 
 require get_template_directory() . '/lib/includes/theme.scripts-styles.php';
 require get_template_directory() . '/lib/includes/theme.widgets.php';
+require get_template_directory() . '/lib/includes/theme.clean-header.php';

@@ -2,7 +2,7 @@
 /**
  * Widget Functions
  *
- * @package base
+ * @package Base
  */
 
 // Add theme support for selective refresh for widgets.
