@@ -6,13 +6,13 @@
 - [Docker](https://docs.docker.com/installation/) 
 - [Docker Compose](http://docs.docker.com/compose/install/)
 - A local domain:  
-Use the [configured DOMAIN of .env file](https://github.com/Ferrmolina/WP-Docker-Gulp/blob/master/.env#L1), into your ```/etc/hosts``` file as ```127.0.0.1 DOMAIN```
+Use the [configured DOMAIN of .env file](https://github.com/Ferrmolina/WordPress-Docker-SASS/blob/master/.env#L1), into your ```/etc/hosts``` file as ```127.0.0.1 DOMAIN```
 
 ## Installation
 
 ```bash 
-git clone https://github.com/Ferrmolina/WP-Docker-Gulp.git
-cd WP-Docker-Gulp
+git clone https://github.com/Ferrmolina/WordPress-Docker-SASS.git
+cd WordPress-Docker-SASS
 docker-compose up -d
 npm run install-dependencies
 npm run init-gulp
