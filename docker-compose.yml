@@ -3,8 +3,9 @@ version: '2'
 services:
   wp:
     image: wordpress:latest # https://hub.docker.com/_/wordpress/
+    domainname: ${DOMAIN}
     ports:
-      - ${DOMAIN}:80:80 # change ip if required
+      - "80:80" # change ip if required
     volumes:
       - ./config/php.conf.ini:/usr/local/etc/php/conf.d/conf.ini
       - ./wp-app:/var/www/html # Full wordpress project
@@ -30,7 +31,7 @@ services:
   db:
     image: mysql:latest # https://hub.docker.com/_/mysql/ - or mariadb https://hub.docker.com/_/mariadb
     ports:
-      - ${DOMAIN}:3306:3306 # change ip if required
+      - "3306:3306" # change ip if required
     command: [
         '--default_authentication_plugin=mysql_native_password',
         '--character-set-server=utf8mb4',
